@@ -8,9 +8,14 @@
 
 ## 🌻 About Me
 
-一个朴实无华的前端搬砖仔～～～
+一个朴实无华的前端开发工作者～～～爱瞎折腾～～～
 
-## 🌱 My Skills
+## 🌱 Skills
 
-* [<img src="https://r2chevereto.yka.moe/longmao.navigator.th.png" alt="Ray Template" width="36px"/> Ray Template](https://github.com/Power-Playground/app)
-* [<img src="https://raw.githubusercontent.com/InhiblabCore/vue-hooks-plus/master/packages/hooks/docs/public/logo@2x.png" alt="Vue Hooks Plus" width="36px"/> Vue Hooks Plus](https://github.com/Power-Playground/app)
+<code><img src="https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"/></code>
+<code><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/></code>
+
+## 🔧 Something
+
+* [<img src="https://r2chevereto.yka.moe/longmao.navigator.th.png" alt="Ray-Template" width="36px"/> Ray-Template](https://github.com/XiaoDaiGua-Ray/ray-template)
+* [<img src="https://raw.githubusercontent.com/InhiblabCore/vue-hooks-plus/master/packages/hooks/docs/public/logo@2x.png" alt="Vue-Hooks-Plus" width="36px"/> Vue-Hooks-Plus](https://github.com/InhiblabCore/vue-hooks-plus)
