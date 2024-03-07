@@ -13,7 +13,7 @@
 ## 🌱 Skills
 
 <code><img src="https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" /></code>
-<code><img src="https://img.shields.io/badge/REACT%2335495e?style=for-the-badge&logo=react&logoColor=%61dafb" /></code>
+<code><img src="https://img.shields.io/badge/REACT-%2335495e?style=for-the-badge&logo=react&logoColor=%61dafb" /></code>
 <code><img src="https://img.shields.io/badge/JAVASCRIPT-%2335495e?style=for-the-badge&logo=javascript&logoColor=%23f0dc51" /></code>
 <code><img src="https://img.shields.io/badge/typescript-%2335495e.svg?style=for-the-badge&logo=typescript&logoColor=%23007acc" /></code>
 <code><img src="https://img.shields.io/badge/VSCODE-%2335495e?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=%23007acc" /></code>
