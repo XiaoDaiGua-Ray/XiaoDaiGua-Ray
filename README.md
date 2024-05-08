@@ -22,5 +22,5 @@
 ## 🔧 Something
 
 - [<img src="https://avatars.githubusercontent.com/u/51957438?v=4" alt="Ray-Template" width="36px"/> Ray-Template](https://github.com/XiaoDaiGua-Ray/ray-template)
-- [<img src="https://avatars.githubusercontent.com/u/51957438?v=4" alt="vue3-next-qrcode" width="36px"/> Ray-Template](https://github.com/XiaoDaiGua-Ray/vue3-next-qrcode)
+- [<img src="https://avatars.githubusercontent.com/u/51957438?v=4" alt="vue3-next-qrcode" width="36px"/> Vue3-Next-Qrcode](https://github.com/XiaoDaiGua-Ray/vue3-next-qrcode)
 - [<img src="https://raw.githubusercontent.com/InhiblabCore/vue-hooks-plus/master/packages/hooks/docs/public/logo@2x.png" alt="Vue-Hooks-Plus" width="36px"/> Vue-Hooks-Plus](https://github.com/InhiblabCore/vue-hooks-plus)
