@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title">
+  <title id="title">Ray — Frontend / Open Source</title>
+  <defs>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="958" height="258" rx="15"/>
+    </clipPath>
+    <radialGradient id="halo" cx="71%" cy="57%" r="46%">
+      <stop stop-color="#292f21"/>
+      <stop offset="1" stop-color="#191d17"/>
+    </radialGradient>
+    <linearGradient id="rays" x1="0%" x2="100%">
+      <stop stop-color="#d9f3a2" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#d9f3a2" stop-opacity=".16"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="959" height="259" rx="16" fill="url(#halo)" stroke="#424b39"/>
+  <g clip-path="url(#frame)" fill="none">
+    <g stroke="#495541">
+      <path d="M520 148H960M678 22V238" stroke-dasharray="2 6"/>
+      <circle cx="678" cy="148" r="67"/>
+      <circle cx="678" cy="148" r="109"/>
+    </g>
+    <!-- The beam opens into a fan past the point of light. -->
+    <path d="M678 148C735 114 761 41 776-18
+             M678 148C749 119 801 48 832-18
+             M678 148C767 123 840 52 900-14
+             M678 148C790 131 874 75 967 14
+             M678 148C801 142 888 112 970 79
+             M678 148C794 151 882 157 970 170
+             M678 148C786 161 868 200 965 241
+             M678 148C768 170 829 226 880 276"
+          stroke="url(#rays)" stroke-width="1.5"/>
+    <path d="M678 148C800 140 884 99 962 60" stroke="#d9f3a2" stroke-width="2.4"/>
+    <circle cx="678" cy="148" r="10" fill="#282e21" stroke="#899b70"/>
+    <circle cx="678" cy="148" r="3.5" fill="#d9f3a2"/>
+  </g>
+  <text x="44" y="155" fill="#f4f2e9" font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="114" font-weight="700" letter-spacing="-5">Ray<tspan fill="#d9f3a2">.</tspan></text>
+  <text x="50" y="213" fill="#b9c2ad" font-family="ui-monospace, Menlo, Consolas, monospace"
+        font-size="18" letter-spacing="2">FRONTEND / OPEN SOURCE</text>
+</svg>
