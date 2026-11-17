@@ -8,27 +8,27 @@ SVG = "http://www.w3.org/2000/svg"
 THEME = """
 :root {
   color-scheme: light dark;
-  --panel: #faf7f2;
-  --frame: #ded3c3;
-  --cb: #d9cbbb;
-  --ce: #ede6dc;
-  --cs: #b34c18;
-  --c1: #ddbb9c;
-  --c2: #c58e64;
-  --c3: #a5693c;
-  --c4: #79451f;
+  --panel: #f8fafc;
+  --frame: #e2e8f0;
+  --cb: #cbd5e1;
+  --ce: #f1f5f9;
+  --cs: #2563eb;
+  --c1: #bfdbfe;
+  --c2: #93c5fd;
+  --c3: #3b82f6;
+  --c4: #1d4ed8;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --panel: #232120;
-    --frame: #4d4138;
-    --cb: #41352c;
-    --ce: #322b27;
-    --cs: #ffbb76;
-    --c1: #73503a;
-    --c2: #9a6947;
-    --c3: #c48a5e;
-    --c4: #e9ad79;
+    --panel: #0d1117;
+    --frame: #30363d;
+    --cb: #21262d;
+    --ce: #161b22;
+    --cs: #38bdf8;
+    --c1: #1e3a8a;
+    --c2: #1d4ed8;
+    --c3: #2563eb;
+    --c4: #38bdf8;
   }
 }
 .panel { fill: var(--panel); stroke: var(--frame); }

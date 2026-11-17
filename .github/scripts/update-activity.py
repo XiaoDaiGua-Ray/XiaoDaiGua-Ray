@@ -20,22 +20,22 @@ PROJECT_NAMES = {
 }
 TRAIL_STYLE = """  <style>
     :root { color-scheme: light dark; }
-    .panel { fill: #faf7f2; stroke: #ded3c3; }
-    .guides { stroke: #ddd0c0; }
-    .fill { stop-color: #c98a55; }
-    .trail { stroke: #a17049; }
-    .inactive { fill: #978270; }
-    .active { fill: #914919; }
-    .label { fill: #635349; }
+    .panel { fill: #f8fafc; stroke: #e2e8f0; }
+    .guides { stroke: #cbd5e1; }
+    .fill { stop-color: #2563eb; }
+    .trail { stroke: #2563eb; }
+    .inactive { fill: #94a3b8; }
+    .active { fill: #1d4ed8; }
+    .label { fill: #475569; }
 
     @media (prefers-color-scheme: dark) {
-      .panel { fill: #232120; stroke: #4d4138; }
-      .guides { stroke: #514136; }
-      .fill { stop-color: #d08a52; }
-      .trail { stroke: #d29a6d; }
-      .inactive { fill: #917a66; }
-      .active { fill: #ffbb76; }
-      .label { fill: #ccbeb0; }
+      .panel { fill: #0d1117; stroke: #30363d; }
+      .guides { stroke: #21262d; }
+      .fill { stop-color: #38bdf8; }
+      .trail { stroke: #38bdf8; }
+      .inactive { fill: #484f58; }
+      .active { fill: #38bdf8; }
+      .label { fill: #8b949e; }
     }
   </style>"""
 
@@ -118,7 +118,7 @@ def render_trail(counts, start, today):
     coordinates = " ".join(f"{x:.1f},{y:.1f}" for x, y, _ in points)
     dots = "\n".join(
         f'  <circle class="{"active" if count else "inactive"}"'
-        f' cx="{x:.1f}" cy="{y:.1f}" r="{4.3 if count else 2.5}"/>'
+        f' cx="{x:.1f}" cy="{y:.1f}" r="{4.3 if count else 2.5}" />'
         for x, y, count in points
     )
     peak_star = ""
@@ -126,8 +126,8 @@ def render_trail(counts, start, today):
         x, y, _ = points[peak_index]
         peak_star = f'''
   <g class="active" transform="translate({x:.1f} {y:.1f})">
-    <circle r="12" opacity=".16"/>
-    <path d="M0 -8 Q1 -1 8 0 Q1 1 0 8 Q-1 1 -8 0 Q-1 -1 0 -8 Z"/>
+    <circle r="12" opacity=".18" />
+    <path d="M0 -8 Q1 -1 8 0 Q1 1 0 8 Q-1 1 -8 0 Q-1 -1 0 -8 Z" />
   </g>'''
     total = sum(values)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="172" viewBox="0 0 960 172" role="img" aria-labelledby="title desc">
@@ -136,14 +136,14 @@ def render_trail(counts, start, today):
 {TRAIL_STYLE}
   <defs>
     <linearGradient id="trail" x1="0" y1="0" x2="0" y2="1">
-      <stop class="fill" stop-opacity=".26"/>
-      <stop class="fill" offset="1" stop-opacity="0"/>
+      <stop class="fill" stop-opacity=".24" />
+      <stop class="fill" offset="1" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <rect class="panel" x=".5" y=".5" width="959" height="171" rx="16"/>
-  <path class="guides" d="M40 118H920M40 87H920M40 56H920" fill="none" stroke-dasharray="2 6"/>
-  <polygon points="40,118 {coordinates} 920,118" fill="url(#trail)"/>
-  <polyline class="trail" points="{coordinates}" fill="none" stroke-width="1.6" stroke-linejoin="round"/>
+  <rect class="panel" x=".5" y=".5" width="959" height="171" rx="16" />
+  <path class="guides" d="M40 118H920M40 87H920M40 56H920" fill="none" stroke-dasharray="2 6" />
+  <polygon points="40,118 {coordinates} 920,118" fill="url(#trail)" />
+  <polyline class="trail" points="{coordinates}" fill="none" stroke-width="1.6" stroke-linejoin="round" />
 {dots}{peak_star}
   <g class="label" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="18">
     <text class="active" x="40" y="36">{total} {"EVENT" if total == 1 else "EVENTS"}</text>

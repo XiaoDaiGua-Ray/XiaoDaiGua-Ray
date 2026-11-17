@@ -20,7 +20,7 @@ jobs:
       - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: ${{ runner.temp }}/contribution-snake-raw.svg
+          outputs: ${{ runner.temp }}/contribution-snake-raw.svg?color_dots=%23f1f5f9,%23bfdbfe,%2360a5fa,%232563eb,%231d4ed8&color_snake=%232563eb&color_dot_border=%230000000a
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: contribution-snake-source
