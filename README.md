@@ -39,3 +39,10 @@
 光点越高，当天的公开开发事件越多。星形标出最活跃的一天。
 
 </details>
+
+<details>
+<summary>贡献贪吃蛇</summary>
+
+![由最近一年的 GitHub 贡献日历生成的贪吃蛇](./assets/contribution-snake.svg)
+
+</details>
