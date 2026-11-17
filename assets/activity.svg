@@ -3,22 +3,22 @@
   <desc id="desc">71 events in 28 days. One point per day, higher points indicate more events.</desc>
   <style>
     :root { color-scheme: light dark; }
-    .panel { fill: #f4f7ee; stroke: #cddabf; }
-    .guides { stroke: #c5d1bb; }
-    .fill { stop-color: #8ca773; }
-    .trail { stroke: #678853; }
-    .inactive { fill: #839775; }
-    .active { fill: #4d7134; }
-    .label { fill: #4e6044; }
+    .panel { fill: #faf7f2; stroke: #ded3c3; }
+    .guides { stroke: #ddd0c0; }
+    .fill { stop-color: #c98a55; }
+    .trail { stroke: #a17049; }
+    .inactive { fill: #978270; }
+    .active { fill: #914919; }
+    .label { fill: #635349; }
 
     @media (prefers-color-scheme: dark) {
-      .panel { fill: #1b271e; stroke: #405543; }
-      .guides { stroke: #455844; }
-      .fill { stop-color: #a5c681; }
-      .trail { stroke: #93ad7c; }
-      .inactive { fill: #71866a; }
-      .active { fill: #cce9a1; }
-      .label { fill: #b6c6aa; }
+      .panel { fill: #232120; stroke: #4d4138; }
+      .guides { stroke: #514136; }
+      .fill { stop-color: #d08a52; }
+      .trail { stroke: #d29a6d; }
+      .inactive { fill: #917a66; }
+      .active { fill: #ffbb76; }
+      .label { fill: #ccbeb0; }
     }
   </style>
   <defs>

@@ -2,28 +2,28 @@
   <title id="title">XiaoDaiGua-Ray — Frontend / Open Source</title>
   <style>
     :root { color-scheme: light dark; }
-    .frame { stroke: #cddabf; }
-    .ink { fill: #24321e; }
-    .muted { fill: #4e6044; }
-    .accent { fill: #4d7134; }
-    .guides { stroke: #b9c9af; }
-    .beam { stroke: #4d7134; }
-    .source-ring { fill: #edf3e4; stroke: #789467; }
-    .halo-inner { stop-color: #e6efda; }
-    .halo-outer { stop-color: #f4f7ee; }
-    .ray-fade { stop-color: #567746; }
+    .frame { stroke: #ded3c3; }
+    .ink { fill: #32271f; }
+    .muted { fill: #635349; }
+    .accent { fill: #914919; }
+    .guides { stroke: #d8c5ad; }
+    .beam { stroke: #a85623; }
+    .source-ring { fill: #f8efe2; stroke: #ad805a; }
+    .halo-inner { stop-color: #f2e7d8; }
+    .halo-outer { stop-color: #faf7f2; }
+    .ray-fade { stop-color: #9d6d45; }
 
     @media (prefers-color-scheme: dark) {
-      .frame { stroke: #405543; }
-      .ink { fill: #eff4e7; }
-      .muted { fill: #b6c6aa; }
-      .accent { fill: #cce9a1; }
-      .guides { stroke: #455844; }
-      .beam { stroke: #cce9a1; }
-      .source-ring { fill: #2c3d2a; stroke: #8da97c; }
-      .halo-inner { stop-color: #2a3b28; }
-      .halo-outer { stop-color: #1b271e; }
-      .ray-fade { stop-color: #cce9a1; }
+      .frame { stroke: #4d4138; }
+      .ink { fill: #f8f1e8; }
+      .muted { fill: #ccbeb0; }
+      .accent { fill: #ffbb76; }
+      .guides { stroke: #514136; }
+      .beam { stroke: #ffbb76; }
+      .source-ring { fill: #3b2c23; stroke: #b28a63; }
+      .halo-inner { stop-color: #362a22; }
+      .halo-outer { stop-color: #232120; }
+      .ray-fade { stop-color: #f9b976; }
     }
   </style>
   <defs>

@@ -4,12 +4,12 @@
 
 ## 技能
 
-![Vue 3](https://img.shields.io/badge/Vue%203-597347?style=flat&logo=vuedotjs&logoColor=e5efd7)
-![React](https://img.shields.io/badge/React-597347?style=flat&logo=react&logoColor=e5efd7)
-![TypeScript](https://img.shields.io/badge/TypeScript-597347?style=flat&logo=typescript&logoColor=e5efd7)
-![JavaScript](https://img.shields.io/badge/JavaScript-597347?style=flat&logo=javascript&logoColor=e5efd7)
-![Swift](https://img.shields.io/badge/Swift-597347?style=flat&logo=swift&logoColor=e5efd7)
-![Git](https://img.shields.io/badge/Git-597347?style=flat&logo=git&logoColor=e5efd7)
+![Vue 3](https://img.shields.io/badge/Vue%203-745a46?style=flat&logo=vuedotjs&logoColor=f8dcbf)
+![React](https://img.shields.io/badge/React-745a46?style=flat&logo=react&logoColor=f8dcbf)
+![TypeScript](https://img.shields.io/badge/TypeScript-745a46?style=flat&logo=typescript&logoColor=f8dcbf)
+![JavaScript](https://img.shields.io/badge/JavaScript-745a46?style=flat&logo=javascript&logoColor=f8dcbf)
+![Swift](https://img.shields.io/badge/Swift-745a46?style=flat&logo=swift&logoColor=f8dcbf)
+![Git](https://img.shields.io/badge/Git-745a46?style=flat&logo=git&logoColor=f8dcbf)
 
 ## 项目
 
