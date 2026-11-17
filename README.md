@@ -1,4 +1,4 @@
-![XiaoDaiGua-Ray · 前端开发与开源](./assets/ray.svg)
+![XiaoDaiGua-Ray · 前端开发与开源](./assets/profile-cover.svg)
 
 前端开发者，主要使用 Vue 和 TypeScript，也开发 macOS 工具。
 
