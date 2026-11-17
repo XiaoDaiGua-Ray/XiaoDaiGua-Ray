@@ -1,4 +1,4 @@
-"""Apply the profile palette and motion preferences to Platane/snk's SVG."""
+"""Render the profile's animated snake and static contribution calendar."""
 
 import sys
 from pathlib import Path
@@ -41,8 +41,21 @@ THEME = """
 """
 
 
-def style_snake(source, destination):
+def save_svg(root, destination):
     XML.register_namespace("", SVG)
+    Path(destination).write_text(XML.tostring(root, encoding="unicode") + "\n", encoding="utf-8")
+
+
+def save_static_calendar(root, destination):
+    for element in list(root):
+        if {"s", "u"}.intersection(element.get("class", "").split()):
+            root.remove(element)
+    style = root.find(f"{{{SVG}}}style")
+    style.text += "\n.c { animation: none !important; }\n"
+    save_svg(root, destination)
+
+
+def style_snake(source, animated, static):
     root = XML.parse(source).getroot()
     namespace = f"{{{SVG}}}"
     allowed_tags = {namespace + name for name in ("svg", "desc", "style", "rect")}
@@ -67,7 +80,8 @@ def style_snake(source, destination):
     })
     style.text += THEME
     root.insert(list(root).index(style) + 1, panel)
-    Path(destination).write_text(XML.tostring(root, encoding="unicode") + "\n", encoding="utf-8")
+    save_svg(root, animated)
+    save_static_calendar(root, static)
 
 
 if __name__ == "__main__":

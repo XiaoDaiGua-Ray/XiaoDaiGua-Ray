@@ -31,8 +31,8 @@
 - `11.10` [FileMint v0.8.2](https://github.com/FileMintApp/FileMint/releases/tag/v0.8.2) 已发布
 <!-- activity:end -->
 
-<details>
-<summary>✦ 展开 28 天活动光轨</summary>
+<details open>
+<summary>✦ 28 天活动光轨</summary>
 
 ![过去 28 天的公开开发活动，每个光点代表一天](./assets/activity.svg)
 
@@ -40,9 +40,12 @@
 
 </details>
 
-<details>
+<details open>
 <summary>贡献贪吃蛇</summary>
 
-![由最近一年的 GitHub 贡献日历生成的贪吃蛇](./assets/contribution-snake.svg)
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/XiaoDaiGua-Ray/XiaoDaiGua-Ray/main/assets/contribution-snake.svg">
+  <img alt="由最近一年的 GitHub 贡献日历生成的贪吃蛇" src="./assets/contribution-calendar.svg">
+</picture>
 
 </details>

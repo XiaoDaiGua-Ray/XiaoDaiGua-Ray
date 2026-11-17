@@ -54,16 +54,19 @@ jobs:
           path: ${{ runner.temp }}/profile-snake
       - name: Apply the profile palette to the snake
         if: steps.download-snake.outcome == 'success'
+        id: style-snake
         run: |
           python3 .github/scripts/style-contribution-snake.py \
             "${RUNNER_TEMP}/profile-snake/contribution-snake-raw.svg" \
-            assets/contribution-snake.svg
+            assets/contribution-snake.svg assets/contribution-calendar.svg
       - name: Save updated profile
         if: ${{ !cancelled() && steps.activity.outcome == 'success' }}
+        env:
+          SNAKE_READY: ${{ steps.style-snake.outcome }}
         run: |
           git add README.md assets/activity.svg
-          if [ -f assets/contribution-snake.svg ]; then
-            git add assets/contribution-snake.svg
+          if [ "$SNAKE_READY" = success ]; then
+            git add assets/contribution-snake.svg assets/contribution-calendar.svg
           fi
           if git diff --cached --quiet; then
             echo "Profile activity is already up to date."
