@@ -1,0 +1,39 @@
+name: Update profile activity
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'XiaoDaiGua-Ray/XiaoDaiGua-Ray' && github.ref_name == github.event.repository.default_branch
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Generate from public activity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate --slurp "users/${GITHUB_REPOSITORY_OWNER}/events/public?per_page=100" \
+            > "${RUNNER_TEMP}/profile-events.json"
+          python3 .github/scripts/update-activity.py "${GITHUB_REPOSITORY_OWNER}" \
+            < "${RUNNER_TEMP}/profile-events.json"
+      - name: Save updated profile
+        run: |
+          git add README.md assets/activity.svg
+          if git diff --cached --quiet; then
+            echo "Public activity is already up to date."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Update public profile activity"
+          git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"

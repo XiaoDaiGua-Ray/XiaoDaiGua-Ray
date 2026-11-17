@@ -1,41 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title">
-  <title id="title">Ray — Frontend / Open Source</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="234" viewBox="0 0 960 234" role="img" aria-labelledby="title">
+  <title id="title">XiaoDaiGua-Ray — Frontend / Open Source</title>
+  <style>
+    :root { color-scheme: light dark; }
+    .frame { stroke: #cddabf; }
+    .ink { fill: #24321e; }
+    .muted { fill: #4e6044; }
+    .accent { fill: #4d7134; }
+    .guides { stroke: #b9c9af; }
+    .beam { stroke: #4d7134; }
+    .source-ring { fill: #edf3e4; stroke: #789467; }
+    .halo-inner { stop-color: #e6efda; }
+    .halo-outer { stop-color: #f4f7ee; }
+    .ray-fade { stop-color: #567746; }
+
+    @media (prefers-color-scheme: dark) {
+      .frame { stroke: #405543; }
+      .ink { fill: #eff4e7; }
+      .muted { fill: #b6c6aa; }
+      .accent { fill: #cce9a1; }
+      .guides { stroke: #455844; }
+      .beam { stroke: #cce9a1; }
+      .source-ring { fill: #2c3d2a; stroke: #8da97c; }
+      .halo-inner { stop-color: #2a3b28; }
+      .halo-outer { stop-color: #1b271e; }
+      .ray-fade { stop-color: #cce9a1; }
+    }
+  </style>
   <defs>
     <clipPath id="frame">
-      <rect x="1" y="1" width="958" height="258" rx="15"/>
+      <rect x="1" y="1" width="958" height="232" rx="15"/>
     </clipPath>
     <radialGradient id="halo" cx="71%" cy="57%" r="46%">
-      <stop stop-color="#292f21"/>
-      <stop offset="1" stop-color="#191d17"/>
+      <stop class="halo-inner"/>
+      <stop class="halo-outer" offset="1"/>
     </radialGradient>
     <linearGradient id="rays" x1="0%" x2="100%">
-      <stop stop-color="#d9f3a2" stop-opacity=".65"/>
-      <stop offset="1" stop-color="#d9f3a2" stop-opacity=".16"/>
+      <stop class="ray-fade" stop-opacity=".72"/>
+      <stop class="ray-fade" offset="1" stop-opacity=".29"/>
     </linearGradient>
   </defs>
-  <rect x=".5" y=".5" width="959" height="259" rx="16" fill="url(#halo)" stroke="#424b39"/>
+  <rect class="frame" x=".5" y=".5" width="959" height="233" rx="16" fill="url(#halo)"/>
   <g clip-path="url(#frame)" fill="none">
-    <g stroke="#495541">
-      <path d="M520 148H960M678 22V238" stroke-dasharray="2 6"/>
-      <circle cx="678" cy="148" r="67"/>
-      <circle cx="678" cy="148" r="109"/>
+    <g transform="translate(0 -13)">
+      <g class="guides">
+        <path d="M562 148H960M678 22V238" stroke-dasharray="2 6"/>
+        <circle cx="678" cy="148" r="67"/>
+        <circle cx="678" cy="148" r="109"/>
+      </g>
+      <!-- The beam opens into a fan past the point of light. -->
+      <path d="M678 148C735 114 761 41 776-18
+               M678 148C749 119 801 48 832-18
+               M678 148C767 123 840 52 900-14
+               M678 148C790 131 874 75 967 14
+               M678 148C801 142 888 112 970 79
+               M678 148C794 151 882 157 970 170
+               M678 148C786 161 868 200 965 241
+               M678 148C768 170 829 226 880 276"
+            stroke="url(#rays)" stroke-width="1.5"/>
+      <path class="beam" d="M678 148C800 140 884 99 962 60" stroke-width="2.4"/>
+      <circle class="source-ring" cx="678" cy="148" r="10"/>
+      <circle class="accent" cx="678" cy="148" r="3.5"/>
     </g>
-    <!-- The beam opens into a fan past the point of light. -->
-    <path d="M678 148C735 114 761 41 776-18
-             M678 148C749 119 801 48 832-18
-             M678 148C767 123 840 52 900-14
-             M678 148C790 131 874 75 967 14
-             M678 148C801 142 888 112 970 79
-             M678 148C794 151 882 157 970 170
-             M678 148C786 161 868 200 965 241
-             M678 148C768 170 829 226 880 276"
-          stroke="url(#rays)" stroke-width="1.5"/>
-    <path d="M678 148C800 140 884 99 962 60" stroke="#d9f3a2" stroke-width="2.4"/>
-    <circle cx="678" cy="148" r="10" fill="#282e21" stroke="#899b70"/>
-    <circle cx="678" cy="148" r="3.5" fill="#d9f3a2"/>
   </g>
-  <text x="44" y="155" fill="#f4f2e9" font-family="Helvetica Neue, Arial, sans-serif"
-        font-size="114" font-weight="700" letter-spacing="-5">Ray<tspan fill="#d9f3a2">.</tspan></text>
-  <text x="50" y="213" fill="#b9c2ad" font-family="ui-monospace, Menlo, Consolas, monospace"
+  <text class="ink" x="43" y="130" font-family="Helvetica Neue, Arial, sans-serif"
+        font-size="69" font-weight="700" letter-spacing="-2.8">XiaoDaiGua<tspan class="accent">-</tspan>Ray</text>
+  <text class="muted" x="47" y="173" font-family="ui-monospace, Menlo, Consolas, monospace"
         font-size="18" letter-spacing="2">FRONTEND / OPEN SOURCE</text>
 </svg>
