@@ -37,9 +37,9 @@
 ## 公开动态
 
 <!-- activity:start -->
+- `11.21` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
+- `11.19` [Ray Template](https://github.com/XiaoDaiGua-Ray/ray-template/commits) 推送了更新
 - `11.18` [Ray Template v6.0.2](https://github.com/XiaoDaiGua-Ray/ray-template/releases/tag/v6.0.2) 已发布
-- `11.18` [Ray Template](https://github.com/XiaoDaiGua-Ray/ray-template/commits) 推送了更新
-- `11.18` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
 - `11.16` [awesome-mac #4663](https://github.com/jaywcjlove/awesome-mac/pull/4663) 已合并
 <!-- activity:end -->
 
