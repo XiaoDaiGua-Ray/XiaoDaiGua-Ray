@@ -37,10 +37,10 @@
 ## 公开动态
 
 <!-- activity:start -->
+- `11.23` [FileMint Homebrew Tap](https://github.com/FileMintApp/homebrew-tap/commits) 推送了更新
 - `11.23` [FileMint v0.8.3](https://github.com/FileMintApp/FileMint/releases/tag/v0.8.3) 已发布
-- `11.22` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
+- `11.23` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
 - `11.22` [VueHooks Plus](https://github.com/InhiblabCore/vue-hooks-plus/commits) 推送了更新
-- `11.19` [Ray Template](https://github.com/XiaoDaiGua-Ray/ray-template/commits) 推送了更新
 <!-- activity:end -->
 
 ### ✦ 28 天活动光轨
