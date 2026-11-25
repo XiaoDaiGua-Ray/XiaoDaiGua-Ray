@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="172" viewBox="0 0 960 172" role="img" aria-labelledby="title desc">
-  <title id="title">Public activity from 2026-10-28 to 2026-11-24</title>
-  <desc id="desc">97 events in 28 days. One point per day, higher points indicate more events.</desc>
+  <title id="title">Public activity from 2026-10-29 to 2026-11-25</title>
+  <desc id="desc">101 events in 28 days. One point per day, higher points indicate more events.</desc>
   <style>
     :root { color-scheme: light dark; }
     .panel { fill: #f8fafc; stroke: #e2e8f0; }
@@ -29,43 +29,43 @@
   </defs>
   <rect class="panel" x=".5" y=".5" width="959" height="171" rx="16" />
   <path class="guides" d="M40 118H920M40 87H920M40 56H920" fill="none" stroke-dasharray="2 6" />
-  <polygon points="40,118 40.0,118.0 72.6,62.5 105.2,90.3 137.8,90.3 170.4,118.0 203.0,102.0 235.6,72.7 268.1,82.2 300.7,102.0 333.3,70.0 365.9,118.0 398.5,102.0 431.1,70.0 463.7,67.4 496.3,118.0 528.9,118.0 561.5,102.0 594.1,118.0 626.7,118.0 659.3,86.0 691.9,95.4 724.4,90.3 757.0,86.0 789.6,102.0 822.2,102.0 854.8,56.0 887.4,86.0 920.0,118.0 920,118" fill="url(#trail)" />
-  <polyline class="trail" points="40.0,118.0 72.6,62.5 105.2,90.3 137.8,90.3 170.4,118.0 203.0,102.0 235.6,72.7 268.1,82.2 300.7,102.0 333.3,70.0 365.9,118.0 398.5,102.0 431.1,70.0 463.7,67.4 496.3,118.0 528.9,118.0 561.5,102.0 594.1,118.0 626.7,118.0 659.3,86.0 691.9,95.4 724.4,90.3 757.0,86.0 789.6,102.0 822.2,102.0 854.8,56.0 887.4,86.0 920.0,118.0" fill="none" stroke-width="1.6" stroke-linejoin="round" />
-  <circle class="inactive" cx="40.0" cy="118.0" r="2.5" />
-  <circle class="active" cx="72.6" cy="62.5" r="4.3" />
+  <polygon points="40,118 40.0,62.5 72.6,90.3 105.2,90.3 137.8,118.0 170.4,102.0 203.0,72.7 235.6,82.2 268.1,102.0 300.7,70.0 333.3,118.0 365.9,102.0 398.5,70.0 431.1,67.4 463.7,118.0 496.3,118.0 528.9,102.0 561.5,118.0 594.1,118.0 626.7,86.0 659.3,95.4 691.9,90.3 724.4,86.0 757.0,102.0 789.6,102.0 822.2,56.0 854.8,82.2 887.4,95.4 920.0,102.0 920,118" fill="url(#trail)" />
+  <polyline class="trail" points="40.0,62.5 72.6,90.3 105.2,90.3 137.8,118.0 170.4,102.0 203.0,72.7 235.6,82.2 268.1,102.0 300.7,70.0 333.3,118.0 365.9,102.0 398.5,70.0 431.1,67.4 463.7,118.0 496.3,118.0 528.9,102.0 561.5,118.0 594.1,118.0 626.7,86.0 659.3,95.4 691.9,90.3 724.4,86.0 757.0,102.0 789.6,102.0 822.2,56.0 854.8,82.2 887.4,95.4 920.0,102.0" fill="none" stroke-width="1.6" stroke-linejoin="round" />
+  <circle class="active" cx="40.0" cy="62.5" r="4.3" />
+  <circle class="active" cx="72.6" cy="90.3" r="4.3" />
   <circle class="active" cx="105.2" cy="90.3" r="4.3" />
-  <circle class="active" cx="137.8" cy="90.3" r="4.3" />
-  <circle class="inactive" cx="170.4" cy="118.0" r="2.5" />
-  <circle class="active" cx="203.0" cy="102.0" r="4.3" />
-  <circle class="active" cx="235.6" cy="72.7" r="4.3" />
-  <circle class="active" cx="268.1" cy="82.2" r="4.3" />
-  <circle class="active" cx="300.7" cy="102.0" r="4.3" />
-  <circle class="active" cx="333.3" cy="70.0" r="4.3" />
-  <circle class="inactive" cx="365.9" cy="118.0" r="2.5" />
-  <circle class="active" cx="398.5" cy="102.0" r="4.3" />
-  <circle class="active" cx="431.1" cy="70.0" r="4.3" />
-  <circle class="active" cx="463.7" cy="67.4" r="4.3" />
+  <circle class="inactive" cx="137.8" cy="118.0" r="2.5" />
+  <circle class="active" cx="170.4" cy="102.0" r="4.3" />
+  <circle class="active" cx="203.0" cy="72.7" r="4.3" />
+  <circle class="active" cx="235.6" cy="82.2" r="4.3" />
+  <circle class="active" cx="268.1" cy="102.0" r="4.3" />
+  <circle class="active" cx="300.7" cy="70.0" r="4.3" />
+  <circle class="inactive" cx="333.3" cy="118.0" r="2.5" />
+  <circle class="active" cx="365.9" cy="102.0" r="4.3" />
+  <circle class="active" cx="398.5" cy="70.0" r="4.3" />
+  <circle class="active" cx="431.1" cy="67.4" r="4.3" />
+  <circle class="inactive" cx="463.7" cy="118.0" r="2.5" />
   <circle class="inactive" cx="496.3" cy="118.0" r="2.5" />
-  <circle class="inactive" cx="528.9" cy="118.0" r="2.5" />
-  <circle class="active" cx="561.5" cy="102.0" r="4.3" />
+  <circle class="active" cx="528.9" cy="102.0" r="4.3" />
+  <circle class="inactive" cx="561.5" cy="118.0" r="2.5" />
   <circle class="inactive" cx="594.1" cy="118.0" r="2.5" />
-  <circle class="inactive" cx="626.7" cy="118.0" r="2.5" />
-  <circle class="active" cx="659.3" cy="86.0" r="4.3" />
-  <circle class="active" cx="691.9" cy="95.4" r="4.3" />
-  <circle class="active" cx="724.4" cy="90.3" r="4.3" />
-  <circle class="active" cx="757.0" cy="86.0" r="4.3" />
+  <circle class="active" cx="626.7" cy="86.0" r="4.3" />
+  <circle class="active" cx="659.3" cy="95.4" r="4.3" />
+  <circle class="active" cx="691.9" cy="90.3" r="4.3" />
+  <circle class="active" cx="724.4" cy="86.0" r="4.3" />
+  <circle class="active" cx="757.0" cy="102.0" r="4.3" />
   <circle class="active" cx="789.6" cy="102.0" r="4.3" />
-  <circle class="active" cx="822.2" cy="102.0" r="4.3" />
-  <circle class="active" cx="854.8" cy="56.0" r="4.3" />
-  <circle class="active" cx="887.4" cy="86.0" r="4.3" />
-  <circle class="inactive" cx="920.0" cy="118.0" r="2.5" />
-  <g class="active" transform="translate(854.8 56.0)">
+  <circle class="active" cx="822.2" cy="56.0" r="4.3" />
+  <circle class="active" cx="854.8" cy="82.2" r="4.3" />
+  <circle class="active" cx="887.4" cy="95.4" r="4.3" />
+  <circle class="active" cx="920.0" cy="102.0" r="4.3" />
+  <g class="active" transform="translate(822.2 56.0)">
     <circle r="12" opacity=".18" />
     <path d="M0 -8 Q1 -1 8 0 Q1 1 0 8 Q-1 1 -8 0 Q-1 -1 0 -8 Z" />
   </g>
   <g class="label" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="18">
-    <text class="active" x="40" y="36">97 EVENTS</text>
-    <text x="40" y="150">10.28</text>
-    <text x="920" y="150" text-anchor="end">11.24</text>
+    <text class="active" x="40" y="36">101 EVENTS</text>
+    <text x="40" y="150">10.29</text>
+    <text x="920" y="150" text-anchor="end">11.25</text>
   </g>
 </svg>
