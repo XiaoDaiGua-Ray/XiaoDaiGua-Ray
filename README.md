@@ -37,9 +37,9 @@
 ## 公开动态
 
 <!-- activity:start -->
+- `11.25` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
+- `11.25` [FileMint Homebrew Tap](https://github.com/FileMintApp/homebrew-tap/commits) 推送了更新
 - `11.25` [FileMint v0.8.4](https://github.com/FileMintApp/FileMint/releases/tag/v0.8.4) 已发布
-- `11.24` [FileMint](https://github.com/FileMintApp/FileMint/commits) 推送了更新
-- `11.23` [FileMint Homebrew Tap](https://github.com/FileMintApp/homebrew-tap/commits) 推送了更新
 - `11.23` [FileMint v0.8.3](https://github.com/FileMintApp/FileMint/releases/tag/v0.8.3) 已发布
 <!-- activity:end -->
 
